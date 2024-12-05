@@ -12,6 +12,7 @@ nav{
     display: flex;
     justify-content: space-between;
     text-align: center;
+    margin: 0 150px;
 }
 .text-primary{
     color: #fd6e0a;
@@ -41,4 +42,54 @@ nav a{
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+}
+.btn-primary:hover{
+    background-color: #fff;
+    color: #fd6e0a;
+    border: 1px solid #fd6e0a;
+    cursor: pointer;
+    
+}
+.btn-contract{
+    background-color: #fff;
+    color: #fd6e0a;
+    border: 1px solid #fd6e0a;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+.header{
+    background-color: #FFF8F3;
+}
+.banner-greating{
+    display:flex;
+    justify-content: space-between;
+    width: 60%;
+    
+}
+.greating{
+    margin-left: 40px;
+    width: 80%;
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+}
+.banner-profile{
+    background-image: url(./images/header_bg.png);
+    padding-right: 20px;
+}
+.about{
+    text-align: center;
+    width: 70%;
+    margin: 40px auto;
+    background-color: #d9f18d;
+    padding: 20px;
+}
+.info-area{
+    display: flex;
+    justify-content: space-between;
+    
 }
